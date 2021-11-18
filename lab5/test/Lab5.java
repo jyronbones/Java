@@ -9,9 +9,7 @@ import com.algonquincollege.cst8132.lab5.Store;
  * Description: A store management system that holds employee information and calculates salary
  * Professor Name: Mike Norman
  */
-/*
- * This class is the driver class and contains method main
- */
+
 /**
  * This class is the driver class and contains method main
  * @author Byron Jones
@@ -23,27 +21,24 @@ public class Lab5 {
 	/**
 	 * Option to read employee details from user
 	 */
-	public static final int READ_KEY_DETAILS = 1; // option to read employee details from user
+	public static final int READ_KEY_DETAILS = 1;
 	/**
 	 * Option to read employee details from file
 	 */
-	public static final int READ_FILE_DETAILS = 2; // option to read employee details from file
+	public static final int READ_FILE_DETAILS = 2;
 	/**
 	 * Option to process increments of employees
 	 */
-	public static final int PROCESS_INCREMENTS = 3; // option to process increments of employees
+	public static final int PROCESS_INCREMENTS = 3;
 	/**
 	 * Option to print employee details
 	 */
-	public static final int PRINT_EMP_DETAILS = 4; // option to print employee details
+	public static final int PRINT_EMP_DETAILS = 4;
 	/**
 	 * Option to exit program
 	 */
-	public static final int EXIT = 5; // option to exit program
-	/*
-	 * This driver method reads name and number of employees of the store, 
-	 * calls on store methods to read employee details and print employee details with title and header
-	 */
+	public static final int EXIT = 5;
+
 	/**
 	 * This driver method reads name and number of employees of the store, 
 	 * calls on store methods to read employee details and print employee details with title and header
@@ -52,14 +47,9 @@ public class Lab5 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		menu(input);
-		input.close(); // closes Scanner
+		input.close();
 	}
-	/*
-	 * This method reads name and number of employees of the store.
-	 * Contains a menu to read employees manually, read employees from file,
-	 * process increments, print employees and exit
-	 * calls on store's methods respectively
-	 */
+
 	/**
 	 * This method reads name and number of employees of the store.
 	 * Contains a menu to read employees manually, read employees from file,
@@ -92,7 +82,7 @@ public class Lab5 {
 			}
 		}
 		
-		Store store = new Store(num); // creates a store with passed number of employees
+		Store store = new Store(num);
 		// menu loop until user exits
 		do {
 			// asks user to enter menu option
@@ -118,8 +108,8 @@ public class Lab5 {
 				store.processIncrements();
 				break;
 			case PRINT_EMP_DETAILS: // user input is 4
-				store.printTitle(storeName); // prints the title with store name
-				store.printEmployeeDetails(); // prints employee detailed information
+				store.printTitle(storeName);
+				store.printEmployeeDetails();
 				break;
 			case EXIT: // user input is 5
 				System.out.println("good bye... have a good day!");
@@ -130,6 +120,5 @@ public class Lab5 {
 				break;
 			}
 		} while (continueProgram);
-		input.close(); // close scanner
 	}
 }
