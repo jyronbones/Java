@@ -6,9 +6,7 @@ package com.algonquincollege.cst8132.lab5;
  * Description: A store management system that holds employee information and calculates salary
  * Professor Name: Mike Norman
  */
-/*
- * This class stores and gets the information of a person
- */
+
 /**
  * This class stores and returns the information of a person
  * @author Byron Jones
@@ -35,9 +33,6 @@ public class Person {
 	 */
 	protected long phoneNumber; // represents phone number of a person
 	
-	/*
-	 * No-arg constructor
-	 */
 	/**
 	 * No-arg constructor
 	 */
@@ -45,9 +40,6 @@ public class Person {
 		super();
 	}
 	
-	/*
-	 * Parameterized constructor assigning information of a person, passed from Employee
-	 */
 	/**
 	 * Parameterized constructor assigning information of a person, passed from Employee
 	 * @param firstName is a person's first name
