@@ -19,19 +19,19 @@ public class Person {
 	/**
 	 * holds a person's first name
 	 */
-	protected String firstName; // represents first name of a person
+	protected String firstName;
 	/**
 	 * holds a person's last name
 	 */
-	protected String lastName; // represents last name of a person
+	protected String lastName;
 	/**
 	 * holds a person's email
 	 */
-	protected String email; // represents email of a person
+	protected String email;
 	/**
 	 * holds a person's phone number
 	 */
-	protected long phoneNumber; // represents phone number of a person
+	protected long phoneNumber;
 	
 	/**
 	 * No-arg constructor
