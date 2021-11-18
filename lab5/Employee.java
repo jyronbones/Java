@@ -8,9 +8,7 @@ import java.util.Scanner;
  * Description: A store management system that holds employee information and calculates salary
  * Professor Name: Mike Norman
  */
-/*
- * This class reads and displays employee information
- */
+
 /**
  * This class reads and displays employee information
  * @author Byron Jones
@@ -28,9 +26,6 @@ public abstract class Employee extends Person{
 	 */
 	protected Person worker;
 	
-	/*
-	 * No-arg constructor
-	 */
 	/**
 	 * no-arg constructor
 	 */
@@ -38,9 +33,6 @@ public abstract class Employee extends Person{
 		
 	}
 	
-	/*
-	 * Parameterized constructor assigning personal information and employee number
-	 */
 	/**
 	 * Parameterized constructor assigning personal information and employee number
 	 * @param empNumber is a person's employee number
@@ -54,9 +46,6 @@ public abstract class Employee extends Person{
 		this.empNumber = empNumber;
 	}
 	
-	/*
-	 * This method reads employee personal information
-	 */
 	/**
 	 * This method reads the details of an employee's personal information
 	 * @param input is the passed scanner to read user input
@@ -116,18 +105,12 @@ public abstract class Employee extends Person{
 		worker = new Person(firstName, lastName, email, phoneNumber);
 	}
 
-	/*
-	 * This method is used to process increments of employees
-	 */
 	/**
 	 * This method is used to process increments of employees
 	 */
 	public void processIncrements() {
 	}
 	
-	/*
-	 * This method prints account information of an employee
-	 */
 	/**
 	 * This method prints account information of an employee
 	 */
