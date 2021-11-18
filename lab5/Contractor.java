@@ -8,9 +8,7 @@ import java.util.Scanner;
  * Description: A store management system that holds employee information and calculates salary
  * Professor Name: Mike Norman
  */
-/*
- * This class contains methods to read and print a contractor employee's personal information
- */
+
 /**
  * This class contains methods to read and print a contractor employee's personal information
  * @author Byron Jones
@@ -37,7 +35,7 @@ public class Contractor extends Employee{
 	 */
 	@Override
 	public void readEmployee(Scanner input) {
-		super.readEmployee(input); // calls the employee class readEmployee to read personal info of a contractor
+		super.readEmployee(input);
 		
 		// ask the user for hourly rate
 		while (true) {
@@ -68,17 +66,14 @@ public class Contractor extends Employee{
 				break;
 			} catch (InputMismatchException e) {
 				System.err.println("Input mismatch. Please enter a valid number of hours worked");
-				input.nextLine(); // clears buffer
+				input.nextLine();
 			} catch (IllegalArgumentException iae) {
 				System.err.println("number of hours worked cannot be negative");
-				input.nextLine(); // clears buffer
+				input.nextLine();
 			}
 		}
 	}
 	
-	/*
-	 * This method is used to increase hourly rate of a contractor by 1
-	 */
 	/**
 	 * This method is used to increase hourly rate of a contractor by 1
 	 */
@@ -86,9 +81,7 @@ public class Contractor extends Employee{
 	public void processIncrements() {
 		 hourlyRate += 1;
 	}
-	/*
-	 * This method is used to display employee personal information
-	 */
+
 	/**
 	 * This method is used to display employee personal information
 	 */
