@@ -1,14 +1,10 @@
 package com.algonquin.cst8132.library;
-
 /*
  * Assessment: Lab 6
  * Student Name: Byron Jones
  * Due Date: 11/14/21
  * Description: A library management system
  * Professor Name: Mike Norman
- */
-/*
- * This class contains the type of book and method to print book non-fiction book details
  */
 /**
  * This class contains the type of book and method to print book non-fiction book details
@@ -22,9 +18,6 @@ public class NonFiction extends Book{
 	 */
 	protected String type;
 	
-	/*
-	 * This method prints a non-fiction type book's details
-	 */
 	/**
 	 * This method prints a non-fiction type book's details
 	 */
