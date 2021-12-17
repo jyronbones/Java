@@ -8,9 +8,6 @@ package com.algonquin.cst8132.library;
  */
 import java.util.InputMismatchException;
 import java.util.Scanner;
-/*
- * This class is the driver class and contains method main and library menu
- */
 /**
  * This class is the driver class and contains method main and library menu
  * @author Byron Jones
@@ -41,9 +38,6 @@ public class LibraryTest {
 	
 	private static final int EXIT = 0;
 	
-	/*
-	 * This driver method contains the menu Scanner and menu method
-	 */
 	/**
 	 * This driver method contains the menu Scanner and menu method
 	 * @param args is the runtime argument array
