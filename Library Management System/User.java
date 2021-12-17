@@ -8,9 +8,6 @@ package com.algonquin.cst8132.library;
  */
 import java.util.InputMismatchException;
 import java.util.Scanner;
-/*
- * This class contains user's personal properties and methods to read user information and print it
- */
 /**
  * This class contains user's personal properties and methods to read user information and print it
  * @author Byron Jones
@@ -18,7 +15,6 @@ import java.util.Scanner;
  * @since 1.8
  */
 public abstract class User{
-	
 	/**
 	 * holds a person's first name
 	 */
@@ -36,9 +32,6 @@ public abstract class User{
 	 */
 	protected long phoneNumber; // represents phone number of a person
 	
-	/*
-	 * This method reads user details from keyboard
-	 */
 	/**
 	 * This method reads user details from keyboard
 	 * @param input is passed Scanner used to read user information
@@ -76,9 +69,6 @@ public abstract class User{
 		}
 	}
 	
-	/*
-	 * This method prints detailed user information
-	 */
 	/**
 	 * This method prints detailed user information
 	 */
