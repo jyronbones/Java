@@ -1,14 +1,10 @@
 package com.algonquin.cst8132.library;
-
 /*
  * Assessment: Lab 6
  * Student Name: Byron Jones
  * Due Date: 11/14/21
  * Description: A library management system
  * Professor Name: Mike Norman
- */
-/*
- * This class contains properties and behaviors of a fiction book of type comic
  */
 /**
  * This class contains properties and behaviors of a fiction book of type comic
@@ -23,9 +19,6 @@ public class Comic extends Fiction{
 	 */
 	protected String genre;
 	
-	/*
-	 * This method prints a fiction type book's genre fiction
-	 */
 	/**
 	 * This method prints a fiction type book's genre fiction
 	 */
