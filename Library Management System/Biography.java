@@ -1,5 +1,4 @@
 package com.algonquin.cst8132.library;
-
 /*
  * Assessment: Lab 6
  * Student Name: Byron Jones
@@ -7,9 +6,7 @@ package com.algonquin.cst8132.library;
  * Description: A library management system
  * Professor Name: Mike Norman
  */
-/*
- * This class contains properties and behaviors of a non-fiction book of type biography
- */
+package com.algonquin.cst8132.library;
 /**
  * This class contains properties and behaviors of a non-fiction book of type biography
  * @author Byron Jones
@@ -22,10 +19,6 @@ public class Biography extends NonFiction{
 	 * stores genre of a biography book
 	 */
 	protected String genre;
-
-	/*
-	 * This method prints a non-fiction type book's genre biography
-	 */
 	/**
 	 * This method prints a non-fiction type book's genre biography
 	 */
