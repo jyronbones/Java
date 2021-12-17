@@ -1,14 +1,10 @@
 package com.algonquin.cst8132.library;
-
 /*
  * Assessment: Lab 6
  * Student Name: Byron Jones
  * Due Date: 11/14/21
  * Description: A library management system
  * Professor Name: Mike Norman
- */
-/*
- * This class contains properties and behaviors of a fiction book of type fantasy
  */
 /**
  * This class contains properties and behaviors of a fiction book of type fantasy
@@ -23,9 +19,6 @@ public class Fantasy extends Fiction{
 	 */
 	protected String genre;
 	
-	/*
-	 * This method prints a fiction type book's genre fantasy
-	 */
 	/**
 	 * This method prints a fiction type book's genre fantasy
 	 */
