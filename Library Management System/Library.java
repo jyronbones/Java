@@ -14,9 +14,6 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-/*
- * This class contains properties and behaviors of a working library
- */
 /**
  * This class contains properties and behaviors of a working library
  * @author Byron Jones
@@ -29,9 +26,6 @@ public class Library implements Policies{
 	private ArrayList<Book> books;
 	private ArrayList<Member> members;
 	
-/*
- * This constructor initializes the users, books and members array
- */
 /**
  * This constructor initializes the users, books and members array	
  */
@@ -42,9 +36,6 @@ public Library() {
 		members = new ArrayList<>();
 	}
 
-/*
- * This method chooses user type and reads user's information entered by keyboard
- */
 /**
  * This method chooses user type and reads user's information entered by keyboard
  * @param input is the passed Scanner to read user input
@@ -85,9 +76,6 @@ public void readUserInfo(Scanner input) {
 	}
 }
 
-/*
- * This method reads user details from a file
- */
 /**
  * This method reads user details from a file
  * @param input is the Scanner used to read file details
@@ -135,9 +123,6 @@ public void readUserFileDetails(Scanner input) {
 	System.out.println("\n*****Successfully imported user's from file*****");
 }
 
-/*
- * This method prints the information of a staff users
- */
 /**
  * This method prints the information of a staff users
  */
@@ -147,9 +132,6 @@ public void printStaffInfo() {
 	}
 }
 
-/*
- * This method prints the information of a member user
- */
 /**
  * This method prints the information of a member user
  */
@@ -159,9 +141,6 @@ public void printMemberInfo() {
 	}
 }
 
-/*
- * This method reads books and their details from a file
- */
 /**
  * This method reads books and their details from a file
  * @param input is the passed Scanner to read details of a book
@@ -246,9 +225,6 @@ public void readBooksInfo(Scanner input) {
 		}
 	}
 	
-	/*
-	 * This method rents a book for a specific member
-	 */
 	/**
 	 * This method rents a book for a specific member
 	 * @param input is the passed Scanner reading book to be withdrawn
@@ -313,9 +289,6 @@ public void readBooksInfo(Scanner input) {
 		}
 	}
 	
-	/*
-	 * This method is used to return a member's book back to library
-	 */
 	/**
 	 * This method is used to return a member's book back to library
 	 * @param input is Scanner used to read a book to be returned
@@ -379,9 +352,6 @@ public void readBooksInfo(Scanner input) {
 		}
 	}
 	
-	/*
-	 * This method accesses a member id from members array list
-	 */
 	/**
 	 * This method accesses a member id from members array list
 	 * @param memberID is the passed member ID from user input
@@ -396,9 +366,6 @@ public void readBooksInfo(Scanner input) {
 		return null;
 	}
 	
-	/*
-	 * This method accesses a book isbn from books array list
-	 */
 	/**
 	 * This method accesses a book isbn from books array list
 	 * @param Isbn is the passed book isbn from user input
@@ -413,9 +380,6 @@ public void readBooksInfo(Scanner input) {
 		return null;
 	}
 	
-	/*
-	 * This method calculates overdue fees a member owes based on rented days
-	 */
 	/**
 	 * This method calculates overdue fees a member owes based on rented days
 	 * @param input is the passed Scanner used for input to calculate overdue fees
@@ -481,9 +445,6 @@ public void readBooksInfo(Scanner input) {
 		}
 	}
 	
-	/*
-	 * This method is used to pay a member's overdue fees
-	 */
 	/**
 	 * This method is used to pay a member's overdue fees
 	 * @param input is the passed Scanner used for input to pay overdue fees of a member
@@ -492,7 +453,7 @@ public void readBooksInfo(Scanner input) {
 		int memberID;
 		double payment;
 		
-		// ask the user for member's ID
+				// ask the user for member's ID
 				while (true) {
 					try {
 						System.out.print("Enter member ID: ");
@@ -549,9 +510,6 @@ public void readBooksInfo(Scanner input) {
 	}
 	
 	/**
-	 * This method prints the title and header for a list of books
-	 */
-	/**
 	 * This methods the print the title and header for a list of books
 	 * @param libraryName is the passed library name from LibraryTest class
 	 */
@@ -571,9 +529,6 @@ public void readBooksInfo(Scanner input) {
 		}
 	}
 	
-	/*
-	 * This method prints the title and header of staff table
-	 */
 	/**
 	 * This method prints the title and header of staff table
 	 * @param libraryName is the passed name of the library from the Library class
@@ -594,9 +549,6 @@ public void readBooksInfo(Scanner input) {
 		}
 	}
 	
-	/*
-	 * This method prints the title and header of member table
-	 */
 	/**
 	 * This method prints the title and header of member table
 	 * @param libraryName is the passed library name from the Library class
@@ -617,9 +569,6 @@ public void readBooksInfo(Scanner input) {
 		}
 	}
 	
-	/*
-	 * This method prints a row of equal signs for book header and tile
-	 */
 	/**
 	 * This method prints a row of equal signs for book title
 	 */
@@ -630,9 +579,6 @@ public void readBooksInfo(Scanner input) {
 		System.out.println(); // line separator
 	}
 	
-	/*
-	 * This method prints a row of equal signs for staff header and title
-	 */
 	/**
 	 * This method prints a row of equal signs for staff header and title
 	 */
@@ -643,9 +589,6 @@ public void readBooksInfo(Scanner input) {
 		System.out.println(); // line separator
 	}
 	
-	/*
-	 * This method prints a row of equal signs for member title and header
-	 */
 	/**
 	 * This method prints a row of equal signs for member title and header
 	 */
