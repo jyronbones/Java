@@ -1,14 +1,10 @@
 package com.algonquin.cst8132.library;
-
 /*
  * Assessment: Lab 6
  * Student Name: Byron Jones
  * Due Date: 11/14/21
  * Description: A library management system
  * Professor Name: Mike Norman
- */
-/*
- * This class contains properties and behaviors of a non-fiction book of type science
  */
 /**
  * This class contains properties and behaviors of a non-fiction book of type science
@@ -23,9 +19,6 @@ public class Science extends NonFiction{
 	 */
 	protected String genre;
 	
-	/*
-	 * This method prints a non-fiction type book's genre science
-	 */
 	/**
 	 * This method prints a non-fiction type book's genre science
 	 */
