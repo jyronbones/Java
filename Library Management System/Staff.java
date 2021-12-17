@@ -8,9 +8,6 @@ package com.algonquin.cst8132.library;
  */
 import java.util.InputMismatchException;
 import java.util.Scanner;
-/*
- * This class contains member's personal properties and methods to read staff information and print it
- */
 /**
  * This class contains member's personal properties and methods to read staff information and print it
  * @author Byron Jones
@@ -32,9 +29,6 @@ public class Staff extends User{
 	 */
 	protected int section;
 	
-	/*
-	 * This method reads staff details from a keyboard
-	 */
 	/**
 	 * This method reads staff details from a keyboard
 	 */
@@ -94,9 +88,6 @@ public class Staff extends User{
 		}
 	}
 	
-	/*
-	 * This method prints detailed staff information
-	 */
 	/**
 	 * This method prints detailed staff information
 	 */
