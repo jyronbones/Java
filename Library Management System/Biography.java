@@ -6,7 +6,6 @@ package com.algonquin.cst8132.library;
  * Description: A library management system
  * Professor Name: Mike Norman
  */
-package com.algonquin.cst8132.library;
 /**
  * This class contains properties and behaviors of a non-fiction book of type biography
  * @author Byron Jones
