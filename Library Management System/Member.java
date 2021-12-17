@@ -9,9 +9,6 @@ package com.algonquin.cst8132.library;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
-/*
- * This class contains member's personal properties and methods to read member information and print it
- */
 /**
  * This class contains member's personal properties and methods to read member information and print it
  * @author Byron Jones
@@ -41,9 +38,6 @@ public class Member extends User{
 	 */
 	protected ArrayList<Book> rentedBooks = new ArrayList<>();
 	
-	/*
-	 * This method reads member details from keyboard
-	 */
 	/**
 	 * This method reads member details from keyboard
 	 * @param input is the passed Scanner used to read user details
@@ -89,9 +83,6 @@ public class Member extends User{
 		}
 	}
 	
-	/*
-	 * This method prints detailed member information
-	 */
 	/**
 	 * This method prints detailed member information
 	 */
