@@ -1,0 +1,10 @@
+comic,1,Hulk,Stan Lee,Fiction
+comic,2,Spiderman,Stan Lee,Fiction
+fantasy,3,Angelfall,Susan Ee,Fiction
+fantasy,4,Graceling,Kristin Cashore,Fiction
+science,5,Fuzz,Mary Roach,Non Fiction
+science,6,Undeniable,Bill Nye,Non Fiction
+history,7,1776,David McCullough,Non Fiction
+history,8,Night,Elie Wiesel,Non Fiction
+biography,9,Will,Will Smith,Non Fiction
+biography,10,Truman,David McCullough,Non Fiction
