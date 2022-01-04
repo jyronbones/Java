@@ -13,9 +13,9 @@ public class Account {
 	/*
 	 * Instance variables of an account
 	 */
-	protected long accNumber;	 // represents account number
-	protected Person accHolder; // represents an account holder of Person
-	protected double balance; 	// represents balance of account
+	protected long accNumber;
+	protected Person accHolder; 
+	protected double balance; 
 	
 	/*
 	 * Reads person's account information
@@ -61,7 +61,7 @@ public class Account {
 	 *  Updates account balance print statement with account number
 	 */
 	public void updateBalance() {
-		System.out.printf("Updating balance of %d\n", accNumber); // print statement with account number
+		System.out.printf("Updating balance of %d\n", accNumber);
 	}
 
 }
