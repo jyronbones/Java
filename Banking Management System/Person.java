@@ -13,10 +13,10 @@ public class Person {
 	/*
 	 * Instance variables of a person
 	 */
-	private String firstName;	 // represents first name of a person
-	private String lastName;	 // represents last name of a person
-	private String email;		 // represents email of a person
-	private long phoneNumber; 	// represents phone number of a person
+	private String firstName;
+	private String lastName;
+	private String email;
+	private long phoneNumber;
 	
 	/*
 	 * No-arg constructor
@@ -54,5 +54,4 @@ public class Person {
 	public String getEmail() {
 		return email;
 	}
-
 }
