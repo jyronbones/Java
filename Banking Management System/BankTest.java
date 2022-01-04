@@ -34,11 +34,11 @@ public class BankTest {
 
 		// print menu loop until user exits
 		do {
-			System.out.print("1. Read Accounts\n" // print menu options
+			System.out.print("1. Read Accounts\n"
 					+ "2. Run monthly process\n"
 					+ "3. Display Accounts\n"
 					+ "4. Exit\nEnter your option: ");
-			int choice = input.nextInt(); // asks user to pick an option
+			int choice = input.nextInt();
 			switch (choice) {
 			case 1:	// reads account
 				bank.readAccount(input);
@@ -58,6 +58,6 @@ public class BankTest {
 				break;
 			}
 		} while (continueProgram);
-		input.close(); // close scanner
+		input.close();
 	}
 }
