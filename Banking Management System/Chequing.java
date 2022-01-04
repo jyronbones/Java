@@ -22,7 +22,7 @@ public class Chequing extends Account{
      */
     @Override
     public void updateBalance() {
-    	super.updateBalance(); // print statement with account number
-    	balance -= fees; // update balance deducting a fee
+    	super.updateBalance();
+    	balance -= fees;
     }
 }
