@@ -37,9 +37,9 @@ public class Bank {
 	 * Reads account type and account details
 	 */
 	public void readAccount(Scanner input) {
-		int choice = 0; // initializes choice
-		if (numAccounts < accounts.length) { // validates there is room for a new account
-			System.out.println("1. Chequing\n" // menu for account type
+		int choice = 0;
+		if (numAccounts < accounts.length) {
+			System.out.println("1. Chequing\n"
 					+ "2. Savings");
 			System.out.print("Enter the type of account you want to create: ");
 			while (true) { // input validation ensuring choice is only chequing or savings
@@ -55,20 +55,20 @@ public class Bank {
 					System.out.print("Please enter a valid account type: ");
 				}
 			}
-			if (choice == 1) { 						// choice is chequing
+			if (choice == 1) { 				// choice is chequing
 				Chequing chequing = new Chequing();	// create a Chequing object
 				chequing.readAccountDetails(input);	// reads account details of a chequing account
 				accounts[numAccounts] = chequing;	// stores chequing object in accounts array
-			} else if (choice == 2) {				// choice is savings
+			} else if (choice == 2) {			// choice is savings
 				Savings savings = new Savings();	// create a Savings object
 				savings.readAccountDetails(input);	// reads account details of a savings account
 				accounts[numAccounts] = savings;	// stores savings object in accounts array
 			}
-			numAccounts++; // incrementing number of accounts
+			numAccounts++;
 		} else { // no room for an account
-			System.out.println(); // line separator
+			System.out.println();
 			System.out.println("****Maximum reached....Cannot add more accounts****");
-			System.out.println(); // line separator
+			System.out.println();
 		}
 	}
 
@@ -116,10 +116,10 @@ public class Bank {
 		System.out.println(); // line separator
 		printStar(); // call to method printing row of stars
 		System.out.printf("%48s BANK", name); // centers bank name
-		System.out.println(); // line separator 
+		System.out.println();
 		printStar(); // call to method printing row of stars
 		System.out.printf("%12s | %25s | %25s | %12s | %8s", "Acc Number", "Name", "Email", "Phone Number", "Balance"); // prints column headers
-		System.out.println(); // line separator
+		System.out.println();
 		printStar(); // call to method printing row of stars
 	}
 
