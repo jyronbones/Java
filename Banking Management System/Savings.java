@@ -23,7 +23,7 @@ public class Savings extends Account{
      */
     @Override
     public void updateBalance() {
-    	super.updateBalance(); // // print statement with account number
-    	balance += (interestRate / 12) * balance; // update balance with monthly interest rate
+    	super.updateBalance();
+    	balance += (interestRate / 12) * balance;
     }
 }
